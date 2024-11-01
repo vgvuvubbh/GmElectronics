@@ -1,0 +1,481 @@
+body{
+    margin:0;
+    background-color: rgb(189, 189, 189);
+    
+}
+
+
+.contact-page{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.contact-navbar{
+ background-color: #efefef;
+ position:relative;
+ width:100%;
+ height:400px;
+}
+
+.navbar-logo{
+    position:absolute;
+    font-size:25px;
+    font-weight:700;
+    font-family: "Montserrat", sans-serif;
+    margin-left:40px;
+    margin-top:30px;
+}
+
+.color1{
+    color:orangered;
+}
+
+.navbar-title{
+    position:absolute;
+    font-size:35px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left:650px;
+    margin-top:150px;
+}
+
+.navbar-text{
+    width:600px;
+    height:40px;
+    font-size:17px;
+    font-weight:500;
+    font-family: "Montserrat", sans-serif;
+    margin-left:500px;
+    margin-top:270px;
+line-height: 28px;
+}
+
+
+.main-page{
+    background-color: #eaeaea;
+    width:100%;
+    height:700px;
+}
+
+
+.main-title{
+    position: absolute;
+    font-size:30px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+   margin-top:100px;
+   margin-left:300px;
+}
+
+.main-text{
+    position: absolute;
+    width:350px;
+    font-size:18px;
+    font-weight:400;
+    font-family: "Montserrat", sans-serif;
+    color: #3b3b3b;
+    margin-left:300px;
+    margin-top:180px;
+}
+.address-title{
+    position:absolute;
+    font-size:16px;
+    font-weight:700;
+    font-family: "Montserrat", sans-serif;
+    margin-left:350px;
+    margin-top:300px;
+}
+
+.address-icon{
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    background-color: orangered;
+    color:white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    margin-left:300px;
+    margin-top:300px;
+}
+
+.address-text{
+    position: absolute;
+    font-size:16px;
+    font-weight:400;
+    font-family: "Montserrat", sans-serif;
+    margin-left:350px;
+    margin-top:320px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.number-title{
+    position:absolute;
+    font-size:16px;
+    font-weight:700;
+    font-family: "Montserrat", sans-serif;
+    margin-left:350px;
+    margin-top:380px;
+}
+
+.number-text{
+    position: absolute;
+    font-size:16px;
+    font-weight:400;
+    font-family: "Montserrat", sans-serif;
+    margin-top:400px;
+    margin-left:350px;
+}
+
+.number-icon{
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    background-color: orangered;
+    color:white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    margin-left:300px;
+    margin-top:380px;
+}
+
+.email-title{
+    position:absolute;
+    font-size:16px;
+    font-weight:700;
+    font-family: "Montserrat", sans-serif;
+    margin-top:450px;
+    margin-left:350px;
+
+}
+
+.email-icon{
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    background-color: orangered;
+    color:white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    margin-top:450px;
+    margin-left:300px;
+}
+
+.email-text{
+    position: absolute;
+    font-size:16px;
+    font-weight:400;
+    font-family: "Montserrat", sans-serif;
+    margin-top:470px;
+    margin-left:350px;
+
+}
+
+.contact-card{
+    width:500px;
+    height:450px;
+    border-radius:40px;
+    background-color: #fff;
+    position: relative;
+    margin-left:700px;
+    margin-top:100px;
+}
+
+.username-input{
+    position:absolute;
+    margin-top:10px;
+    border-left:#3b3b3b;
+    border-right:#3b3b3b;
+    border-top:#3b3b3b;
+    border-bottom:1px solid rgb(36, 32, 32);
+    width:300px;
+    height:30px;
+    font-family: "Montserrat", sans-serif;
+    margin-left:70px;
+    margin-top:100px;
+    font-size:16px;
+
+}
+
+.card-title{
+    font-size:30px;
+    font-weight:600;
+    font-family: "Montserrat", sans-serif;
+   position: absolute;
+   margin-left:40px;
+   margin-top:30px;
+}
+
+
+.username-input2{
+
+    position:absolute;
+    margin-top:10px;
+    border-left:#3b3b3b;
+    border-right:#3b3b3b;
+    border-top:#3b3b3b;
+    border-bottom:1px solid rgb(36, 32, 32);
+    width:300px;
+    height:30px;
+    font-family: "Montserrat", sans-serif;
+    margin-left:70px;
+    margin-top:160px;
+    font-size:16px;
+}
+
+.textarea{
+    border:none;
+    border-bottom:1px solid rgb(50, 48, 48);
+    position:absolute;
+    width:300px;
+    height:80px;
+    margin-left:70px;
+    margin-top:210px;
+    font-size:16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-text{
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    font-size:12px;
+    width:350px;
+    margin-left:50px;
+    margin-top:320px;
+}
+
+.card-button{
+    padding:15px 35px;
+    border:none;
+    border-radius:20px;
+    color:white;
+    background-color: orangered;
+    font-size:16px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    margin-left:260px;
+    margin-top:370px;
+    
+}
+
+.card-button:hover{
+    background-color:orange;
+    cursor: pointer;
+}
+
+.follow{
+    font-size:20px;
+    font-weight:700;
+    position:absolute;
+    font-family: "Montserrat", sans-serif;
+    margin-left:300px;
+
+}
+
+.facebook, .twitter, .youtube, .instagram{
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    font-size:20px;
+    background-color: orangered;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    flex-direction: column;
+}
+
+ .facebook{
+  margin-left:300px;
+  margin-top:30px;
+}
+
+.twitter{
+    margin-left:350px;
+    margin-top:30px;
+}
+.youtube{
+    margin-left:350px;
+    margin-top:30px;
+}
+.youtube{
+    margin-left:400px;
+}
+
+.instagram{
+   margin-top:30px;
+   margin-left:450px;
+}
+.facebook:hover{
+    background-color: orange;
+}
+.twitter:hover{
+    background-color: orange;
+}
+.youtube:hover{
+    background-color: orange;
+
+}
+.instagram:hover{
+    background-color: orange;
+}
+.footer{
+    width:100%;
+    height:300px;
+}
+
+.footer-logo{
+    position:absolute;
+    font-size:25px;
+    font-weight:700;
+    font-family: "Montserrat", sans-serif;
+    margin-top:30px;
+    margin-left:40px;
+}
+
+.color2{
+    color:orangered;
+}
+
+.footer-text{
+    width:300px;
+    font-family: "Montserrat", sans-serif;
+    font-size:15px;
+    font-weight:400;
+    position: absolute;
+    margin-left:40px;
+    margin-top:80px;
+}
+
+.footer-email{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size:15px;
+    font-weight:400;
+    margin-left:40px;
+    margin-top:150px;
+}
+
+
+.features{
+    position: absolute;
+    font-size:16px;
+    font-weight:600;
+    font-family: "Montserrat", sans-serif;
+    margin-top:30px;
+    margin-left:400px;
+}
+
+.resourses{
+    margin-left:650px;
+}
+
+.company{
+    margin-left:900px;
+}
+
+.bm{
+    position: absolute;
+    font-size:14px;
+    font-weight:400;
+    font-family: "Montserrat", sans-serif;
+    margin-left:400px;
+    margin-top:80px;
+}
+
+.two{
+   margin-top:110px;
+}
+
+.three{
+    margin-top:140px;
+}
+
+.four{
+    margin-top:170px;
+}
+
+.five{
+    margin-left:650px;
+}
+
+.six{
+    margin-left: 650px;
+    margin-top:110px;
+}
+
+
+.seven{
+    margin-left: 650px;
+    margin-top:140px;
+}
+
+.eight{
+    margin-left: 650px;
+    margin-top:170px;
+
+}
+
+
+
+
+.nine{
+    margin-left:900px;
+}
+
+.ten{
+    margin-left:900px;
+    margin-top:110px;
+}
+
+.eleven{
+    margin-left:900px;
+    margin-top:140px;
+}
+
+.twelve{
+    margin-left:900px;
+    margin-top:170px;
+}
+ 
+.link1{
+    text-decoration: none;
+    color:black;
+}
+
+.link1:hover{
+    text-decoration: underline;
+    border-bottom:1px solid black;
+}
+
+.copy-right{
+    width:100%;
+    height:50px;
+    position: relative;
+    background-color: orangered;
+}
+
+.copyright-text{
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    font-weight:400;
+    margin-top:20px;
+    margin-left:20px;
+}
